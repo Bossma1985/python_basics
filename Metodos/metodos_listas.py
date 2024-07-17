@@ -77,11 +77,8 @@ lista2 = [45 , 6 , 90 , True, False]
 #lista2.sort(reverse = True)
 
 
-# Invirtiendo los elementos de una lista
-# REVERSE: invierte los elementos según su posición sin importar su valor.
 
 
-#lista2.reverse()
 
 
 
