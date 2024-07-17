@@ -66,9 +66,8 @@ lista.remove(38)
 lista2 = [45 , 6 , 90 , True, False]
 
 
-# Ordenando las listas. No aplica a strings.
 
-# SORT: Ordena la lista de menor a mayor.
+# SORT: Ordena la lista de menor a mayor. Ordenando las listas. No aplica a strings.
 
 #lista2.sort()
 
@@ -78,9 +77,14 @@ lista2 = [45 , 6 , 90 , True, False]
 
 
 
+# REVERSE: invierte los elementos de la lista según su posición sin importar su valor.
 
 
+print(lista2)
 
+lista2.reverse() # Aquí invierto la lista sin un orden de "< a >" ó "> a <"
+#print(lista2)
 
+#print(type((lista2)))
 
-print(dir(("lista2")))
+print(lista2)

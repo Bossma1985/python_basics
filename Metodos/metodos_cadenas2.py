@@ -1,4 +1,4 @@
-variable = "Rafa Botella"
+variable = "Rafael Botella"
 
 #print(dir(variable))
 
@@ -22,16 +22,16 @@ print(variable.index("a"))  # Encuentra el índice de la primera coincidncia. Si
 print(variable.isnumeric()) # Para que de True TODOS deben ser números sin espacios ni caracteres especiales.
 print(variable.isalpha())   # Para que de True TODOS deben ser letras sin espacios ni caracteres especiales.
 
-print(variable[3])  # Devuelve el valor del índice que le marcas entre []
-print(variable[0])
-print(variable[3])
-print(variable[-1]) # Si el valor es negativo empieza a contar por el final.
-print(variable[-3])
+print(variable[0])  # Devuelve el valor del índice que le marcas entre []
+print(variable[1])
+print(variable[2])
+print(variable[-3]) # Si el valor es negativo empieza a contar por el final.
+print(variable[-1])
 
 
 # f-string
 
-nombre = "Rafa"
+nombre = "Rafael"
 edad = 39
 localidad = "Simat de la Valldigna"
 

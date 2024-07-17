@@ -12,3 +12,4 @@ print(resta)
 print(division) # Siempre da como resultado un float incluso Ssi es 2.0
 print(potencia)
 print(division_entera) # Da como resultado el resultado de la división redondeado a la baja. Ej: 2.80 seria 2
+print(multiplicacion)
