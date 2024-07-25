@@ -16,8 +16,8 @@ Ingreso_mensual = 20019
 
 # Otro ejemplo de uso más complejo: Ifs anidados:
 
-ingreso_mensual = 2020
-gasto_mensual = 10
+ingreso_mensual = 30700
+gasto_mensual = 20
 
 if ingreso_mensual > 10000:
     if ingreso_mensual - gasto_mensual < 0:

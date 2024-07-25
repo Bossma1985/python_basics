@@ -19,3 +19,10 @@ resultado10 = not False # Da True
 
 
 print(resultado3)
+
+# EXTRA tabla ASCII: Comprobrar en: https://elcodigoascii.com.ar el valor de cada caracter 
+# para ver cual tiene prioridad en un comparativa: 
+# En este caso la T = 84 y la C = 67, por tanto nos devolverá True.
+
+ascii_comparativa = "Torete" > "Casa"
+print(ascii_comparativa)

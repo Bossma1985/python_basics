@@ -1,7 +1,7 @@
 
 #Formas de crear Tuplas:
 
-# Con función:
+# Con función: Es la única forma de crear Tuplas vacías.
 
 print("1 - Creando tupla con función tuple")
 
