@@ -12,12 +12,12 @@ crudo_promedio = 5
 crudo_dalto = 3.5
 
 
-# Diferencias de duración:
+# 1 - Diferencias de duración. Forma NO óptima de dejar los decimales que desees:
 
-diferencia_min = 100 - dalto_curso / otros_cursos_min * 10
-diferencia_max = 100 - dalto_curso *1000 // otros_cursos_max / 100  # Fórmula para que solo entregue 2 decimales en caso que nos de 3 o más. 
+diferencia_min = 100 - dalto_curso / otros_cursos_min * 100
+diferencia_max = 100 - dalto_curso *1000 // otros_cursos_max / 10  # Fórmula para que solo entregue 2 decimales en caso que nos de 3 o más. 
                                                                     # Explicado en el minuto 02:55:00 del tutorial de Dalto.
-diferencia_promedio = 100 - dalto_curso / otros_cursos_promedio * 10
+diferencia_promedio = 100 - dalto_curso / otros_cursos_promedio * 100
 
 
 # Calculando el porcentaje del tiempo vacio borrado:
@@ -56,3 +56,21 @@ print(f"Ver 10 horas de otros cursos equivale a ver {1000 * dalto_curso // otros
 
 print("------------------------")
 
+
+# 2 - Diferencias de duración. Forma óptima de dejar los decimales que desees:
+
+# Calcular diferencias con fórmulas originales
+diferencia_min = 100 - dalto_curso / otros_cursos_min * 100
+diferencia_max = 100 - dalto_curso * 1000 // otros_cursos_max / 10
+diferencia_promedio = 100 - dalto_curso / otros_cursos_promedio * 100
+
+# Redondear las diferencias a 2 decimales
+diferencia_min = round(diferencia_min, 2)
+diferencia_max = round(diferencia_max, 2)
+diferencia_promedio = round(diferencia_promedio, 2)
+
+print("El curso de Dalto dura:")
+
+print(f" - Un {diferencia_min}% menos que el más rápido")
+print(f" - Un {diferencia_max}% menos que el más lento")
+print(f" - Un {diferencia_promedio}% menos que el promedio")
